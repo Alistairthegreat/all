@@ -68,6 +68,8 @@ p {
   -o-border-radius: 10px;
   margin-bottom: 3%;
   padding: 6px;
+  position: relative;
+  transition-duration: 0.3s;
 }
 
 .game-button img {
@@ -81,4 +83,9 @@ p {
 
 .game-button a {
   text-decoration: none;
+}
+
+.game-button:hover {
+  up: 10px;
+  transition-duration: 0.3s;
 }
