@@ -67,6 +67,7 @@ p {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   margin-bottom: 3%;
+  padding: 6px;
 }
 
 .game-button img {
