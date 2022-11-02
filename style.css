@@ -86,6 +86,6 @@ p {
 }
 
 .game-button:hover {
-  top: 10px;
+  top: -10px;
   transition-duration: 0.3s;
 }
