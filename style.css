@@ -69,8 +69,8 @@ p {
   -o-border-radius: 10px;
   margin-bottom: 3%;
   padding: 6px;
-  position: relative;
   transition-duration: 0.3s;
+  transform: translate(0px, 0px);
 }
 
 .game-button img {
@@ -87,8 +87,8 @@ p {
 }
 
 .game-button:hover {
-  top: -10px;
   transition-duration: 0.3s;
+  transform: translate(0px, -10px);
 }
 .cursor-pointer {
   cursor: pointer;
