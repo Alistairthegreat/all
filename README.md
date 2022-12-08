@@ -13,7 +13,7 @@ This site has a few QOL features to make your life easier:
 Pull requests are highly encouraged as they take work off our hands and they allow people to contribute to this site.
 
 ## Reviewing and requesting
-To make a game request or review the site, visit [this link](https://github.com/shadowgmes/shadowgmes.github.io/issues/new)
+To make a game request or review the site, visit [this link](https://github.com/shadowgmes/shadowgmes.github.io/issues/new/choose)
 
 ## To-do list
 
