@@ -1,4 +1,23 @@
 # Shadow's Games
-This project has a license so don't even try to copy it. You can fork it and give credit, but no claiming it's yours. Self hosting and hosting providers are fine WITH CREDIT AND LICENSE. Also all games here are not mine so you can have them.
 
-The License clearly states that this is my repository, @sunflower4166, and not anyone else's. Anyone (@sunflower4166) claiming that they made their fork (https://github.com/sunflower4166/shadowgmes.github.io) is speaking crap and will be in a whole lot of legal stuff (@sunflower4166). The License also states that you may not distribute closed source versions. If you see a copy of this repo, add /LICENSE to the end of the URL and check near the bottom if it has my name and copyright on it (Oliver Salameh and Shadow's Games). If it doesn't, report it to me through an issue and I WILL take legal action.
+This project has a license so don't even try to copy it. You can fork it and give credit, but no claiming it's yours. Self hosting and hosting providers are fine ***WITH CREDIT AND LICENSE***. Also all games here are not mine so you can have them.
+
+## Features
+
+This site has a few QOL features to make your life easier:
+- Tab Hider (Opens tab in about:blank. Not visible to most extensions such as GoGuardian)
+- Homepage is disguised as Google
+
+## Feel free to make a pull request
+
+Pull requests are highly encouraged as they take work off our hands and they allow people to contribute to this site.
+
+## Reviewing and requesting
+To make a game request or review the site, visit [this link](https://github.com/shadowgmes/shadowgmes.github.io/issues/new)
+
+## To-do list
+
+Things we have to get done:
+- Make all games disguised as Google
+- Add more games (always here. not going away. we will have all the games)
+As stated before, please feel free to make a pull request accomplishing these features.
