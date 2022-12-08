@@ -20,4 +20,5 @@ To make a game request or review the site, visit [this link](https://github.com/
 Things we have to get done:
 - Make all games disguised as Google
 - Add more games (always here. not going away. we will have all the games)  
+  
 As stated before, please feel free to make a pull request accomplishing these features.
