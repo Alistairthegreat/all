@@ -20,6 +20,3 @@ if (!window.top.location.href.startsWith("https://sunflower4166.github.io/")) {
   alert("this site is poopoo");
   window.close();
 }
-if (location.protocol !== "https:") {
-  location.protocol = "https:";
-}
