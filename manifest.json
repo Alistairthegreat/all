@@ -1,0 +1,13 @@
+{
+  "name": "Shadow's Games",
+  "short_name": "Shadow's Games",
+  "icons": [{
+        "src": "https://www.google.com/favicon.ico",
+        "sizes": "32x32",
+        "type": "image/png"
+      }],
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#181414"
+}
