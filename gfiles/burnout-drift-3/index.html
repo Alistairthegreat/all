@@ -36,7 +36,7 @@
         	args[1] = /^http/.test(args[1]) ? 'https://onebigstatic-tmm.tbt.mx/static/' + args[1] : args[1];
         	origOpen.apply(this, args);
         };
-        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Burnout Drift 3 WebGL (IDNet).json", {
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/BurnoutDrift3WebGLIDNet.json", {
             onProgress: UnityProgress,
             Module: {
                 onRuntimeInitialized: function() {
