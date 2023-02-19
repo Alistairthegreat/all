@@ -316,6 +316,11 @@ var gamesText = `{
             "path":"gfiles/spinningrat/"
         },
         {
+            "name":"Subway Surfers",
+            "img":"img/subwaysurfers.png",
+            "path":"gfiles/subway-surfers/"
+        },
+        {
             "name":"Super Smash Flash",
             "img":"img/ssf.png",
             "path":"gfiles/ssf/"
