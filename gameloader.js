@@ -296,6 +296,11 @@ var gamesText = `{
             "path":"gfiles/sandspiel/"
         },
         {
+            "name":"Slope",
+            "img":"img/slope.jpg",
+            "path":"gfiles/slope/"
+        },
+        {
             "name":"Super Mario 64",
             "img":"img/sm64.jpg",
             "path":"gfiles/sm64/"
