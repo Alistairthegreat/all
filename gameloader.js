@@ -13,7 +13,7 @@ var gamesText = `{
         {
             "name":"2048",
             "img":"img/2048.png",
-            "path":"gfiles/0hn0/"
+            "path":"gfiles/2048/"
         },
         {
             "name":"Alien Hominid",
@@ -48,7 +48,7 @@ var gamesText = `{
         {
             "name":"Ballistic Chickens",
             "img":"img/ballistic-chickens.png",
-            "path":"gfiles/ballistc-chickens/"
+            "path":"gfiles/ballistic-chickens/"
         },
         {
             "name":"Basketbros.io",
