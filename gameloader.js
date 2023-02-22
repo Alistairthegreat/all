@@ -126,6 +126,11 @@ var gamesText = `{
             "path":"gfiles/edgesurf/"
         },
         {
+            "name":"Eggy Car",
+            "img":"img/eggycar.png",
+            "path":"gfiles/eggy-car/"
+        },
+        {
             "name":"Elastic Man",
             "img":"img/elasticman.jpg",
             "path":"gfiles/elastic-man/"
