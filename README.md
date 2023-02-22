@@ -6,7 +6,10 @@ This project has a license so don't even try to copy it. You can fork it and giv
 Donate to the dev, SipSup3314, using the button below.  
   
 <a href="https://www.buymeacoffee.com/sipsup3314" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px" ></a>  
-
+  
+## Stats
+  
+![Alt](https://repobeats.axiom.co/api/embed/50c98819138ee524ce9eb6666cc3c5fea8a694e8.svg "Repobeats analytics image")
 ## Features
 
 This site has a few features to make your life easier:
