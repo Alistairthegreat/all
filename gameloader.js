@@ -356,6 +356,11 @@ var gamesText = `{
             "path":"gfiles/tinyfishing/"
         },
         {
+            "name":"Toss The Turtle",
+            "img":"img/tosstheturtle.png",
+            "path":"gfiles/tosstheturtle/"
+        },
+        {
             "name":"Overtype Typewriter",
             "img":"img/typewriter.jpeg",
             "path":"gfiles/typewriter/"
