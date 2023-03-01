@@ -296,6 +296,11 @@ var gamesText = `{
             "path":"gfiles/ruffle-demo/"
         },
         {
+            "name":"Run 2",
+            "img":"img/run2.png",
+            "path":"gfiles/run2/"
+        },
+        {
             "name":"Sandspiel",
             "img":"img/sandspiel.png",
             "path":"gfiles/sandspiel/"
