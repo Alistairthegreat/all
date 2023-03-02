@@ -1,4 +1,5 @@
-if (!window.top.location.href.startsWith("https://sunflower4166.github.io/")) {
+if (!window.top.location.href.startsWith("https://skybase-alpha.github.io/")) {
+  document.querySelector("title").innerHTML = "Google";
   function hidey() {
     function inFrame() {
       try {
