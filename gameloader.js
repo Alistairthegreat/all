@@ -136,6 +136,11 @@ var gamesText = `{
             "path":"gfiles/elastic-man/"
         },
         {
+            "name":"Flag Racer",
+            "img":"img/flagracer.png",
+            "path":"gfiles/flagracer/"
+        },
+        {
             "name":"Flappy Bird",
             "img":"img/flappybird.png",
             "path":"gfiles/flappybird/"
