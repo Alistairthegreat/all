@@ -56,6 +56,16 @@ var gamesText = `{
             "path":"gfiles/basketbros/"
         },
         {
+            "name":"Bloons Tower Defense",
+            "img":"img/btd.jpg",
+            "path":"gfiles/btd/"
+        },
+        {
+            "name":"Bloons Tower Defense 2",
+            "img":"img/btd2.jpg",
+            "path":"gfiles/btd2/"
+        },
+        {
             "name":"Blue",
             "img":"img/blue.png",
             "path":"gfiles/blue/"
