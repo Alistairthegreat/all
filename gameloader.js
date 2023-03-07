@@ -206,6 +206,16 @@ var gamesText = `{
             "path":"gfiles/impossible-quiz/"
         },
         {
+            "name":"Learn to Fly",
+            "img":"img/ltf.png",
+            "path":"gfiles/ltf/"
+        },
+        {
+            "name":"Learn to Fly 2",
+            "img":"img/ltf2.png",
+            "path":"gfiles/ltf2/"
+        },
+        {
             "name":"Madalin Stunt Cars 2",
             "img":"img/madalincars2.jpg",
             "path":"gfiles/madalin-cars-2/"
