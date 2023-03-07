@@ -562,9 +562,9 @@ const mobs = {
                     };
                     vertexCollision(this.position, look, map);
                     vertexCollision(this.position, look, body);
-                    if (!m.isCloak) vertexCollision(this.position, look, [playerBody, playerHead]);
+                    if (!m.isCloak) vertexCollision(this.position, look, [player]);
                     // hitting player
-                    if (best.who === playerBody || best.who === playerHead) {
+                    if (best.who === player) {
                         if (m.immuneCycle < m.cycle) {
                             const dmg = 0.0014 * simulation.dmgScale;
                             m.damage(dmg);
@@ -820,25 +820,25 @@ const mobs = {
                 }
             },
             repelBullets() {
-                if (this.seePlayer.yes) {
-                    ctx.lineWidth = "8";
-                    ctx.strokeStyle = this.fill;
-                    ctx.beginPath();
-                    for (let i = 0, len = bullet.length; i < len; ++i) {
-                        const dx = bullet[i].position.x - this.position.x;
-                        const dy = bullet[i].position.y - this.position.y;
-                        const dist = Math.sqrt(dx * dx + dy * dy);
-                        if (dist < 500) {
-                            ctx.moveTo(this.position.x, this.position.y);
-                            ctx.lineTo(bullet[i].position.x, bullet[i].position.y);
-                            const angle = Math.atan2(dy, dx);
-                            const mag = (1500 * bullet[i].mass * simulation.g) / dist;
-                            bullet[i].force.x += mag * Math.cos(angle);
-                            bullet[i].force.y += mag * Math.sin(angle);
-                        }
+                // if (this.seePlayer.yes) {
+                // ctx.lineWidth = "8";
+                // ctx.strokeStyle = this.fill;
+                // ctx.beginPath();
+                for (let i = 0, len = bullet.length; i < len; ++i) {
+                    const dx = bullet[i].position.x - this.position.x;
+                    const dy = bullet[i].position.y - this.position.y;
+                    const dist = Math.max(300, Math.sqrt(dx * dx + dy * dy))
+                    if (dist < 700) {
+                        ctx.moveTo(this.position.x, this.position.y);
+                        ctx.lineTo(bullet[i].position.x, bullet[i].position.y);
+                        const angle = Math.atan2(dy, dx);
+                        const mag = (500 * bullet[i].mass * simulation.g) / dist;
+                        bullet[i].force.x += mag * Math.cos(angle);
+                        bullet[i].force.y += mag * Math.sin(angle);
                     }
-                    ctx.stroke();
                 }
+                // ctx.stroke();
+                // }
             },
             attraction() {
                 //accelerate towards the player
@@ -1187,11 +1187,27 @@ const mobs = {
             leaveBody: true,
             isDropPowerUp: true,
             death() {
+                if (tech.collidePowerUps && Math.random() < tech.collidePowerUps && this.isDropPowerUp) powerUps.randomize(this.position) //needs to run before onDeath spawns power ups
                 this.onDeath(this); //custom death effects
                 this.removeConsBB();
                 this.alive = false; //triggers mob removal in mob[i].replace(i)
 
                 if (this.isDropPowerUp) {
+                    if (this.isSoonZombie) { //spawn zombie on death
+                        this.leaveBody = false;
+                        let count = 5 //delay spawn cycles
+                        let cycle = () => {
+                            if (count > 0) {
+                                if (m.alive) requestAnimationFrame(cycle);
+                                if (!simulation.paused && !simulation.isChoosing) {
+                                    count--
+                                }
+                            } else {
+                                spawn.zombie(this.position.x, this.position.y, this.radius, this.vertices.length, this.fill) // zombie(x, y, radius, sides, color)
+                            }
+                        }
+                        requestAnimationFrame(cycle);
+                    }
                     if (tech.iceIXOnDeath && this.isSlowed) {
                         for (let i = 0, len = 2 * Math.sqrt(Math.min(this.mass, 25)) * tech.iceIXOnDeath; i < len; i++) b.iceIX(3, Math.random() * 2 * Math.PI, this.position)
                     }
@@ -1228,19 +1244,19 @@ const mobs = {
                     mobs.mobDeaths++
 
                     if (Math.random() < tech.sporesOnDeath) {
+                        const amount = Math.min(25, Math.floor(2 + this.mass * (0.5 + 0.5 * Math.random())))
                         if (tech.isSporeFlea) {
-                            const len = Math.min(25, Math.floor(2 + this.mass * (0.5 + 0.5 * Math.random()))) / 2
+                            const len = amount / 2
                             for (let i = 0; i < len; i++) {
                                 const speed = 10 + 5 * Math.random()
                                 const angle = 2 * Math.PI * Math.random()
                                 b.flea(this.position, { x: speed * Math.cos(angle), y: speed * Math.sin(angle) })
                             }
                         } else if (tech.isSporeWorm) {
-                            const len = Math.min(25, Math.floor(2 + this.mass * (0.5 + 0.5 * Math.random()))) / 2
+                            const len = amount / 2
                             for (let i = 0; i < len; i++) b.worm(this.position)
                         } else {
-                            const len = Math.min(25, Math.floor(2 + this.mass * (0.5 + 0.5 * Math.random())))
-                            for (let i = 0; i < len; i++) b.spore(this.position)
+                            for (let i = 0; i < amount; i++) b.spore(this.position)
                         }
                     } else if (tech.isExplodeMob) {
                         b.explosion(this.position, Math.min(700, Math.sqrt(this.mass + 6) * (30 + 60 * Math.random())))
@@ -1263,6 +1279,9 @@ const mobs = {
                             powerUps.spawn(this.position.x - 20, this.position.y, "ammo", false)
                             powerUps.spawn(this.position.x, this.position.y + 20, "research", false)
                             powerUps.spawn(this.position.x, this.position.y - 20, "heal", false)
+                            powerUps.spawn(this.position.x - 40, this.position.y, "ammo", false)
+                            powerUps.spawn(this.position.x, this.position.y + 40, "research", false)
+                            powerUps.spawn(this.position.x, this.position.y - 40, "heal", false)
                         } else {
                             const amount = 0.005
                             if (tech.isEnergyHealth) {
