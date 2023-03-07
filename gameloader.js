@@ -212,7 +212,7 @@ var gamesText = `{
         },
         {
             "name":"Learn to Fly 2",
-            "img":"img/ltf2.png",
+            "img":"img/ltf2.jpg",
             "path":"gfiles/ltf2/"
         },
         {
