@@ -22,7 +22,7 @@ This site has a few features to make your life easier:
 Pull requests are highly encouraged as they take work off our hands and they allow people to contribute to this site.
 
 ## Reviewing and requesting
-To make a game request or review the site, please [make an issue](https://github.com/shadowgmes/shadowgmes.github.io/issues/new/choose)
+To make a game request or review the site, please [make an issue on GitHub](https://github.com/shadowgmes/shadowgmes.github.io/issues/new/choose) or [make a ticket in the Discord Server](https://discord.gg/ZdHBCFXdT3)
 
 ## To-do list
 
