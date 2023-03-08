@@ -78,7 +78,7 @@ var gamesText = `{
         {
             "name":"Chess",
             "img":"img/chess.jpg",
-            "path":"gfiles/chessai/"
+            "path":"gfiles/chess/"
         },
         {
             "name":"Chill Radio",
@@ -444,11 +444,6 @@ var gamesText = `{
             "name":"Webretro",
             "img":"img/webretro.png",
             "path":"gfiles/webretro/"
-        },
-        {
-            "name":"WebXash (Half Life)",
-            "img":"img/webxash.jpg",
-            "path":"gfiles/webxash/"
         },
         {
             "name":"Wordle",
