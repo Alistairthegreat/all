@@ -241,6 +241,11 @@ var gamesText = `{
             "path":"gfiles/msflight/"
         },
         {
+            "name":"Moto X3M",
+            "img":"img/motox3m.png",
+            "path":"gfiles/motox3m/"
+        },
+        {
             "name":"n-gon",
             "img":"img/n-gon.png",
             "path":"gfiles/n-gon/"
