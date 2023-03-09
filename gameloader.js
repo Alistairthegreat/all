@@ -131,6 +131,11 @@ var gamesText = `{
             "path":"gfiles/eaglercraft/"
         },
         {
+            "name":"Eaglercraft (Minecraft 1.8.8)",
+            "img":"img/eaglerx.png",
+            "path":"gfiles/eaglerx/"
+        },
+        {
             "name":"Edge Surf",
             "img":"img/edgesurf.png",
             "path":"gfiles/edgesurf/"
