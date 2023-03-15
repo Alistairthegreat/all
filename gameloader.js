@@ -28,7 +28,7 @@ var gamesText = `{
         {
             "name":"Among Us",
             "img":"img/amongus.jpg",
-            "path":"gfiles/amongus/"
+            "path":"gfiles/among-us/"
         },
         {
             "name":"Animator vs Animation",
