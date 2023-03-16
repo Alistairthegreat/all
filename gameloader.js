@@ -121,17 +121,22 @@ var gamesText = `{
             "path":"gfiles/doodle-jump/"
         },
         {
+            "name":"DOOM",
+            "img":"img/doom.jpg",
+            "path":"gfiles/doom/"
+        },
+        {
             "name":"Drift Boss",
             "img":"img/driftboss.png",
             "path":"gfiles/drift-boss/"
         },
         {
-            "name":"Eaglercraft (Minecraft 1.5.2)",
+            "name":"Eaglercraft 1.5.2",
             "img":"img/eaglercraft.png",
             "path":"gfiles/eaglercraft/"
         },
         {
-            "name":"Eaglercraft (Minecraft 1.8.8)",
+            "name":"Eaglercraft 1.8.8",
             "img":"img/eaglerx.png",
             "path":"gfiles/eaglerx/"
         },
