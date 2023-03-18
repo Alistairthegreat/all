@@ -326,11 +326,6 @@ var gamesText = `{
             "path":"gfiles/riddletransfer2/"
         },
         {
-            "name":"Rocket Soccer",
-            "img":"img/rocketsoccer.jpg",
-            "path":"gfiles/rocket-soccer/"
-        },
-        {
             "name":"Ruffle (Flash Emulator)",
             "img":"img/ruffle.png",
             "path":"gfiles/ruffle-demo/"
