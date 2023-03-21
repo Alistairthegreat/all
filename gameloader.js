@@ -51,6 +51,11 @@ var gamesText = `{
             "path":"gfiles/ballistic-chickens/"
         },
         {
+            "name":"Basket and Ball",
+            "img":"img/basket-and-ball.jpg",
+            "path":"gfiles/basketandball/"
+        },
+        {
             "name":"Basketbros.io",
             "img":"img/basketbros.jpg",
             "path":"gfiles/basketbros/"
