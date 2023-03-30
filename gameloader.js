@@ -1,6 +1,46 @@
 var gamesText = `{
     "games":[
         {
+            "name":"Check #announcements",
+            "img":"img/giveaway.png",
+            "path":"https://discord.gg/ZdHBCFXdT3"
+        },
+        {
+            "name":"Check #announcements",
+            "img":"img/giveaway.png",
+            "path":"https://discord.gg/ZdHBCFXdT3"
+        },
+        {
+            "name":"Check #announcements",
+            "img":"img/giveaway.png",
+            "path":"https://discord.gg/ZdHBCFXdT3"
+        },
+        {
+            "name":"Check #announcements",
+            "img":"img/giveaway.png",
+            "path":"https://discord.gg/ZdHBCFXdT3"
+        },
+        {
+            "name":"Check #announcements",
+            "img":"img/giveaway.png",
+            "path":"https://discord.gg/ZdHBCFXdT3"
+        },
+        {
+            "name":"Check #announcements",
+            "img":"img/giveaway.png",
+            "path":"https://discord.gg/ZdHBCFXdT3"
+        },
+        {
+            "name":"Check #announcements",
+            "img":"img/giveaway.png",
+            "path":"https://discord.gg/ZdHBCFXdT3"
+        },
+        {
+            "name":"Check #announcements",
+            "img":"img/giveaway.png",
+            "path":"https://discord.gg/ZdHBCFXdT3"
+        },
+        {
             "name":"0hh1",
             "img":"img/0hh1.png",
             "path":"gfiles/0hh1/"
