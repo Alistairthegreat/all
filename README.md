@@ -10,6 +10,8 @@ Donate to the dev, SipSup3314, using the button below.
   
 ## Stats
   
+![GitHub repo size](https://img.shields.io/github/repo-size/shadowgmes/shadowgmes.github.io?label=Total%20size)  
+  
 ![Alt](https://repobeats.axiom.co/api/embed/50c98819138ee524ce9eb6666cc3c5fea8a694e8.svg "Repobeats analytics image")  
   
 ![Alt](https://api.star-history.com/svg?repos=shadowgmes/shadowgmes.github.io&type=Date)
