@@ -26,7 +26,7 @@ if (!window.top.location.href.startsWith("https://skybase-alpha.github.io/")) {
     }else if(tabBar == "b")
     {
       var tabIcon = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Antonia_Sautter_Creations.png/120px-Antonia_Sautter_Creations.png";
-      var tabName = "&nbsp;";
+      var tabName = "&lrm;";
     }
     function inFrame() {
       try {
