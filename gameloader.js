@@ -1,42 +1,42 @@
 var gamesText = `{
     "games":[
         {
-            "name":"Check #announcements",
+            "name":"Ending soon!",
             "img":"img/giveaway.png",
             "path":"https://discord.gg/ZdHBCFXdT3"
         },
         {
-            "name":"Check #announcements",
+            "name":"Ending soon!",
             "img":"img/giveaway.png",
             "path":"https://discord.gg/ZdHBCFXdT3"
         },
         {
-            "name":"Check #announcements",
+            "name":"Ending soon!",
             "img":"img/giveaway.png",
             "path":"https://discord.gg/ZdHBCFXdT3"
         },
         {
-            "name":"Check #announcements",
+            "name":"Ending soon!",
             "img":"img/giveaway.png",
             "path":"https://discord.gg/ZdHBCFXdT3"
         },
         {
-            "name":"Check #announcements",
+            "name":"Ending soon!",
             "img":"img/giveaway.png",
             "path":"https://discord.gg/ZdHBCFXdT3"
         },
         {
-            "name":"Check #announcements",
+            "name":"Ending soon!",
             "img":"img/giveaway.png",
             "path":"https://discord.gg/ZdHBCFXdT3"
         },
         {
-            "name":"Check #announcements",
+            "name":"Ending soon!",
             "img":"img/giveaway.png",
             "path":"https://discord.gg/ZdHBCFXdT3"
         },
         {
-            "name":"Check #announcements",
+            "name":"Ending soon!",
             "img":"img/giveaway.png",
             "path":"https://discord.gg/ZdHBCFXdT3"
         },
