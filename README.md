@@ -14,7 +14,6 @@ Donate to the dev, SipSup3314, using the button below.
   
 ![Alt](https://repobeats.axiom.co/api/embed/50c98819138ee524ce9eb6666cc3c5fea8a694e8.svg "Repobeats analytics image")  
   
-![Alt](https://api.star-history.com/svg?repos=shadowgmes/shadowgmes.github.io&type=Date)
 ## Features
 
 This site has a few features to make your life easier:
@@ -29,10 +28,6 @@ Pull requests are highly encouraged as they take work off our hands and they all
 To make a game request or review the site, please [make an issue on GitHub](https://github.com/shadowgmes/shadowgmes.github.io/issues/new/choose) or [make a ticket in the Discord Server](https://discord.gg/ZdHBCFXdT3)
 
 ## To-do list
-
-Things we have to get done:
-- Make all games disguised as Google
-- Add more games (always here. not going away. we will have all the games)  
-- We can now start focusing on adding apps  
+This has been moved to the backlog. [Click here](https://github.com/orgs/shadowgmes/projects/2) to view it.
   
 As stated before, please feel free to make a pull request accomplishing these features.
