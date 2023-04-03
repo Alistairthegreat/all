@@ -256,6 +256,11 @@ var gamesText = `{
             "path":"gfiles/motox3m/"
         },
         {
+            "name":"N64 Emulator",
+            "img":"img/n64.jpg",
+            "path":"gfiles/n64/"
+        },
+        {
             "name":"n-gon",
             "img":"img/n-gon.png",
             "path":"gfiles/n-gon/"
