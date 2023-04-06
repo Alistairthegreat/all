@@ -16,6 +16,11 @@ var gamesText = `{
             "path":"gfiles/2048/"
         },
         {
+            "name":"Thirty Dollar Website",
+            "img":"img/30dollarwebsite.jpg",
+            "path":"gfiles/30dollarwebsite/"
+        },
+        {
             "name":"Alien Hominid",
             "img":"img/alienhominid.jpg",
             "path":"gfiles/alienhominid/"
