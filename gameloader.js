@@ -489,12 +489,10 @@ for (i in gameObject.games) {
   document.getElementById("gameSelect").appendChild(elem1);
   console.log("div made");
   let elem2 = document.createElement("a");
-  if (top !== self) {
-    elem2.onclick = "hideGame("+gameObject.games[i].path+")";
-  } else {
+  
     elem2.href = gameObject.games[i].path;
     elem2.target = "_blank";
-  }
+  
   elem1.appendChild(elem2);
   console.log("a made");
   let elem3 = document.createElement("img");
