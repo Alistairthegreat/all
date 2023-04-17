@@ -491,7 +491,6 @@ for (i in gameObject.games) {
   let elem2 = document.createElement("a");
   
     elem2.href = gameObject.games[i].path;
-    elem2.target = "_blank";
   
   elem1.appendChild(elem2);
   console.log("a made");
