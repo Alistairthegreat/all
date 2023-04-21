@@ -226,6 +226,11 @@ var gamesText = `{
             "path":"gfiles/impossible-quiz/"
         },
         {
+            "name":"Incremancer",
+            "img":"img/incremancer.png",
+            "path":"gfiles/incremancer/"
+        },
+        {
             "name":"Learn to Fly",
             "img":"img/ltf.png",
             "path":"gfiles/ltf/"
