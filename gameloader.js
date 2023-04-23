@@ -356,6 +356,11 @@ var gamesText = `{
             "path":"gfiles/run2/"
         },
         {
+            "name":"Sandboxels",
+            "img":"img/sandboxels.png",
+            "path":"gfiles/sandboxels/"
+        },
+        {
             "name":"Sandspiel",
             "img":"img/sandspiel.png",
             "path":"gfiles/sandspiel/"
