@@ -303,7 +303,7 @@ var gamesText = `{
         {
             "name":"Powder Game",
             "img":"img/powdergame.jpeg",
-            "path":"gfiles/powder-game/"
+            "path":"gfiles/powder-game/dust2.html"
         },
         {
             "name":"Retro Bowl",
