@@ -76,6 +76,11 @@ var gamesText = `{
             "path":"gfiles/btd2/"
         },
         {
+            "name":"Bloons Tower Defense 3",
+            "img":"img/btd3.jpg",
+            "path":"gfiles/btd3/"
+        },
+        {
             "name":"Blue",
             "img":"img/blue.png",
             "path":"gfiles/blue/"
