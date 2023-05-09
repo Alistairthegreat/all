@@ -15,6 +15,9 @@
   width: 12vw;
   height: 12vw;
 }
+#desc {
+  display: none;
+}
 
 .fork-link {
   padding: 0;
