@@ -86,6 +86,11 @@ var gamesText = `{
             "path":"gfiles/blue/"
         },
         {
+            "name":"Cat Ninja",
+            "img":"img/cat-ninja.jpg",
+            "path":"gfiles/cat-ninja/"
+        },
+        {
             "name":"Champion Island",
             "img":"img/championisland.jpg",
             "path":"gfiles/champion-island/"
