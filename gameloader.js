@@ -241,6 +241,11 @@ var gamesText = `{
             "path":"gfiles/incremancer/"
         },
         {
+            "name":"Jacksmith",
+            "img":"img/jacksmith.png",
+            "path":"gfiles/jacksmith/"
+        },
+        {
             "name":"Learn to Fly",
             "img":"img/ltf.png",
             "path":"gfiles/ltf/"
